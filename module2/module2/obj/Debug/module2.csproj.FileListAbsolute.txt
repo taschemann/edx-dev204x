@@ -1,6 +1,0 @@
-C:\Users\siu850260352\Desktop\workspace\src\vs2013\edx-dev204x\module2\module2\bin\Debug\module2.exe.config
-C:\Users\siu850260352\Desktop\workspace\src\vs2013\edx-dev204x\module2\module2\bin\Debug\module2.exe
-C:\Users\siu850260352\Desktop\workspace\src\vs2013\edx-dev204x\module2\module2\bin\Debug\module2.pdb
-C:\Users\siu850260352\Desktop\workspace\src\vs2013\edx-dev204x\module2\module2\obj\Debug\module2.csprojResolveAssemblyReference.cache
-C:\Users\siu850260352\Desktop\workspace\src\vs2013\edx-dev204x\module2\module2\obj\Debug\module2.exe
-C:\Users\siu850260352\Desktop\workspace\src\vs2013\edx-dev204x\module2\module2\obj\Debug\module2.pdb
