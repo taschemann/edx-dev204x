@@ -19,7 +19,22 @@ namespace module3
             {
                 Console.WriteLine(notImplemented.Message);
             }
-            getStudentInformation();
+            
+            Console.WriteLine("Which option do you need to work with?");
+            Console.WriteLine("1. Student \n 2. Teacher \n 3. Validate Birthday");
+            string x = Console.ReadLine();
+            switch (x)
+            {
+                case "1":
+                    getStudentInformation();
+                    break;
+                case "2":
+                    getTeacherInformation();
+                    break;
+                default:
+                    break;
+            }
+
         }
 
         //Create method to get student information and assign it to a variable
@@ -40,8 +55,12 @@ namespace module3
 
         static void getTeacherInformation()
         {
-            //Not yet implemented
-            throw new NotImplementedException();
+            Console.WriteLine("Enter the teacher's first name: ");
+            string firstName = Console.ReadLine();
+            Console.WriteLine("Enter the teacher's last name: ");
+            string lastName = Console.ReadLine();
+            Console.WriteLine("Enter the teacher's date of birth: ");
+            string birthday = Console.ReadLine();
         }
 
         static void printDetails(string firstName, string lastName, string birthday)
@@ -61,6 +80,7 @@ namespace module3
             //Challenge method
             //Research System.DateTime type. Modify birthday field for the student and/or teacher to ensure it used
             //a DateTime type. Create a try/catch block to catch invalid date entries and display a message to the user.
+            throw new NotImplementedException();
         }
     }
 }
