@@ -10,8 +10,16 @@ namespace module3
     {
         static void Main(string[] args)
         {
+            try
+            {
+                //New Function
+                getTeacherInformation();
+            }
+            catch (NotImplementedException notImplemented)
+            {
+                Console.WriteLine(notImplemented.Message);
+            }
             getStudentInformation();
-            echoStudentDetails();
         }
 
         //Create method to get student information and assign it to a variable
@@ -27,12 +35,25 @@ namespace module3
             string lastName = Console.ReadLine();
             Console.WriteLine("Enter the student's date of birth: ");
             string birthday = Console.ReadLine();
+            printStudentDetails(firstName, lastName, birthday);
         }
 
-        static void echoStudentDetails()
+        static void getTeacherInformation()
+        {
+            //Not yet implemented
+            throw new NotImplementedException();
+        }
+
+        static void printStudentDetails(string firstName, string lastName, string birthday)
         {
             //Below variables don't have context. Find way to get info from getStudentInformation() to here.
             Console.WriteLine("{0} {1} was born on: {2}", firstName, lastName, birthday);
+        }
+
+        static void printTeacherDetails()
+        {
+            //Not yet implemented
+            throw new NotImplementedException();
         }
     }
 }
