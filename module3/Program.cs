@@ -62,7 +62,19 @@ namespace module3
             string lastName = Console.ReadLine();
             Console.WriteLine("Enter the student's date of birth: ");
             string birthday = Console.ReadLine();
-            printDetails(firstName, lastName, birthday);
+
+            Console.WriteLine("Do you want to print output?");
+            string input = Console.ReadLine();
+
+            if (input == "y" || input == "yes")
+            {
+                printDetails(firstName, lastName, birthday);
+            }
+            else
+            {
+                Environment.Exit(0);
+            }
+
         }
 
         static void getTeacherInformation()
