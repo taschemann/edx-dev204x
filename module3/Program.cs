@@ -31,7 +31,8 @@ namespace module3
 
         static void echoStudentDetails()
         {
-            Console.WriteLine("{0} {1} was born on: {2}", first, last, birthday);
+            //Below variables don't have context. Find way to get info from getStudentInformation() to here.
+            Console.WriteLine("{0} {1} was born on: {2}", firstName, lastName, birthday);
         }
     }
 }

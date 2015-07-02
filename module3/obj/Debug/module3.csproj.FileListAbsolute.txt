@@ -1,1 +1,3 @@
 C:\Users\siu850260352\Desktop\workspace\src\vs2013\edx-dev204x\module3\module3\bin\Debug\module3.exe.config
+C:\Users\Thomas\Desktop\workspace\src\edx-dev204x\module3\bin\Debug\module3.exe.config
+C:\Users\Thomas\Desktop\workspace\src\edx-dev204x\module3\obj\Debug\module3.csprojResolveAssemblyReference.cache
