@@ -10,7 +10,8 @@ namespace module4
     {
         static void Main(string[] args)
         {
-            arrayPractice();
+            //arrayPractice();
+            enumPractice();
         }
 
         static void arrayPractice()
@@ -18,5 +19,20 @@ namespace module4
             char[,] multiArray = new char[3, 2] { { 'a', 'b' }, { 'c', 'd' }, { 'e', 'f' } };
             Console.WriteLine(multiArray[2, 1]);
         }
+        
+        //Cannot be put into a method
+        enum Days { Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday };
+
+        static void enumPractice()
+        {
+            #region
+            int x = (int)Days.Sunday;
+            int y = (int)Days.Friday;
+            Console.WriteLine("Sun = {0}", x);
+            Console.WriteLine("Fri = {0}", y);
+            #endregion
+        }
+
     }
 }
+
