@@ -10,6 +10,7 @@ namespace module3
     {
         static void Main(string[] args)
         {
+            //Exception practice
             try
             {
                 //Function that will never be implemented
@@ -19,17 +20,28 @@ namespace module3
             {
                 Console.WriteLine(notImplemented.Message);
             }
-            
+            //End exception practice
+
             Console.WriteLine("Which option do you need to work with?");
-            Console.WriteLine("1. Student \n 2. Teacher \n 3. Validate Birthday");
-            string x = Console.ReadLine();
+            Console.WriteLine("\n 1. Student \n 2. Teacher \n 3. Validate Birthday \n 4. Exit \n");
+            //Need exception here if user inputs an incorrect value
+            string input = Console.ReadLine();
+            int x;
+            Int32.TryParse(input, out x);
+            //
             switch (x)
             {
-                case "1":
+                case 1:
                     getStudentInformation();
                     break;
-                case "2":
+                case 2:
                     getTeacherInformation();
+                    break;
+                case 3:
+                    validateBirthdayChallenge();
+                    break;
+                case 4:
+                    Environment.Exit(0);
                     break;
                 default:
                     break;
