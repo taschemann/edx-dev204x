@@ -12,8 +12,8 @@ namespace module3
         {
             try
             {
-                //New Function
-                getTeacherInformation();
+                //Function that will never be implemented
+                validateBirthday();
             }
             catch (NotImplementedException notImplemented)
             {
@@ -35,7 +35,7 @@ namespace module3
             string lastName = Console.ReadLine();
             Console.WriteLine("Enter the student's date of birth: ");
             string birthday = Console.ReadLine();
-            printStudentDetails(firstName, lastName, birthday);
+            printDetails(firstName, lastName, birthday);
         }
 
         static void getTeacherInformation()
@@ -44,16 +44,23 @@ namespace module3
             throw new NotImplementedException();
         }
 
-        static void printStudentDetails(string firstName, string lastName, string birthday)
+        static void printDetails(string firstName, string lastName, string birthday)
         {
-            //Below variables don't have context. Find way to get info from getStudentInformation() to here.
+            //Print details to console
             Console.WriteLine("{0} {1} was born on: {2}", firstName, lastName, birthday);
         }
 
-        static void printTeacherDetails()
+        static void validateBirthday()
         {
-            //Not yet implemented
+            //Will never be implemented
             throw new NotImplementedException();
+        }
+
+        static void validateBirthdayChallenge()
+        {
+            //Challenge method
+            //Research System.DateTime type. Modify birthday field for the student and/or teacher to ensure it used
+            //a DateTime type. Create a try/catch block to catch invalid date entries and display a message to the user.
         }
     }
 }
