@@ -85,7 +85,7 @@ namespace module4
         //Calling a constructor
         #region
         //Call custom constructor by providing arguments for the three required parameters
-        coffeeAgain coffeeAgain = new coffeeAgain(4, "Arabica", "Colombia");
+        //coffeeAgain coffeeAgainAgain = new coffeeAgain(4, "Arabica", "Colombia");
         #endregion
     }
 }
