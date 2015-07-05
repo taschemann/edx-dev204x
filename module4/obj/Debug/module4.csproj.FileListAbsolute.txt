@@ -5,3 +5,4 @@ C:\Users\siu850260352\Desktop\workspace\src\vs2013\edx-dev204x\module4\bin\Debug
 C:\Users\siu850260352\Desktop\workspace\src\vs2013\edx-dev204x\module4\obj\Debug\module4.csprojResolveAssemblyReference.cache
 C:\Users\siu850260352\Desktop\workspace\src\vs2013\edx-dev204x\module4\obj\Debug\module4.exe
 C:\Users\siu850260352\Desktop\workspace\src\vs2013\edx-dev204x\module4\obj\Debug\module4.pdb
+C:\Users\Thomas\Desktop\workspace\src\edx-dev204x\module4\bin\Debug\module4.exe.config
