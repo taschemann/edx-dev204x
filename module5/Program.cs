@@ -19,32 +19,37 @@ namespace module5
             courseClass programmingWithCSharp = new courseClass();
 
             //Add your three students to this Course object
-            //programmingWithCSharp.Students = { student1, student2, student3 };
+            programmingWithCSharp.Students = new studentClass[3] { student1, student2, student3 };
 
             //Instantiate at least one Teacher object
             teacherClass teacher1 = new teacherClass();
 
             //Add that Teacher object to your Course object
-            //programmingWithCSharp.Instructor = { teacher1 };
+            programmingWithCSharp.Instructor = new teacherClass[3] { teacher1, null, null };
 
             //Instantiate a Degree object, such as Bachelor
             degreeClass bachelorDegree = new degreeClass();
 
             //Add your Course object to the Degree object
-            //bachelorDegree = programmingWithCSharp;
+            bachelorDegree.Course = programmingWithCSharp;
 
             //Instantiate a UProgram object called Information Technology
             UProgram informationTechnology = new UProgram();
 
             //Add the Degree object to the UProgram object
-            //informationTechnology = bachelorDegree;
+            informationTechnology.Degrees = bachelorDegree;
+
+            informationTechnology.ProgramName = "Information Technology";
+            informationTechnology.Degrees.DegreeName = "ISAT";
 
             //Using Console.WriteLine statements, output the following information to the console window:
             //The name of the program and the degree it contains
             //The name of the course in the degree
             //The count of the number of students in the course.
 
-            Console.WriteLine();
+            Console.WriteLine("The name of the Program is {0} and the Degree is {1}.", informationTechnology.ProgramName, informationTechnology.Degrees.DegreeName );
+            Console.WriteLine("The name of the Course is {0}.", informationTechnology.Degrees.Course );
+            Console.WriteLine("The number of students enrolled is {0}", studentClass.StudentCount );
         }
     }
 }

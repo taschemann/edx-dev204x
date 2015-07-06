@@ -89,6 +89,16 @@ namespace module5
             get { return country; }
             set { country = value; }
         }
+
+        //Static variable to count the number of students enrolled
+
+        private static int studentCount;
+
+        public static int StudentCount
+        {
+            get { return studentClass.studentCount; }
+            set { studentClass.studentCount = value; }
+        }
         #endregion
     }
 }

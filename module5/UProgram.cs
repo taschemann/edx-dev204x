@@ -29,9 +29,9 @@ namespace module5
         }
 
         //Degrees available
-        private string[] degrees;
+        private degreeClass degrees;
 
-        public string[] Degrees
+        public degreeClass Degrees
         {
             get { return degrees; }
             set { degrees = value; }

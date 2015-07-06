@@ -26,6 +26,16 @@ namespace module5
             get { return creditsRequired; }
             set { creditsRequired = value; }
         }
+
+
+        private courseClass course;
+
+        internal courseClass Course
+        {
+            get { return course; }
+            set { course = value; }
+        }
+
         #endregion
     }
 }

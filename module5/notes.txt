@@ -12,7 +12,7 @@ Transfer the variables you created in Module 1 into these class files.  Ensure t
 The Course object should contain an array of Student objects so ensure that you create an array inside the Course object to hold Students as well as an array to contain
 Teacher objects as each course may have more than one teacher or TAs.  For this assignment, create arrays of size 3 for students and the same for teachers.  The UProgram 
 object should be able to contain degrees and the degrees should be able to contain courses as well but for the purposes of this assignment, just ensure you have a single 
-variable in UProgram to hold a Degree and single variable in Degree to hold a Course.  
+variable in UProgram to hold a Degree and single variable in Degree to hold a Course.
 
 Class diagram showing the Program, Degree, Course, Student, and Teacher classes in a hiearchy where a Program is at the top, and contains Degrees which in turn contain Courses, 
 which include students and teachers.
@@ -34,4 +34,3 @@ Using Console.WriteLine statements, output the following information to the cons
 The name of the program and the degree it contains
 The name of the course in the degree
 The count of the number of students in the course.
-Your output should look similar to this:

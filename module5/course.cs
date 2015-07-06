@@ -38,18 +38,18 @@ namespace module5
         }
 
         //Instructor
-        private string[] instructor;
+        private teacherClass[] instructor;
 
-        public string[] Instructor
+        public teacherClass[] Instructor
         {
             get { return instructor; }
             set { instructor = value; }
         }
 
         //Students
-        private string[] students;
+        private studentClass[] students;
 
-        public string[] Students
+        public studentClass[] Students
         {
             get { return students; }
             set { students = value; }
