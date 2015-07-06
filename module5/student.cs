@@ -96,8 +96,8 @@ namespace module5
 
         public static int StudentCount
         {
-            get { return studentClass.studentCount; }
-            set { studentClass.studentCount = value; }
+            get { return studentCount; }
+            set { studentCount = value; }
         }
         #endregion
     }

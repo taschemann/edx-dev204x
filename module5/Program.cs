@@ -10,16 +10,26 @@ namespace module5
     {
         static void Main(string[] args)
         {
-            //Instantiate three student objects
-            studentClass student1 = new studentClass();
-            studentClass student2 = new studentClass();
-            studentClass student3 = new studentClass();
+            //Instantiate three student objects - This is done below in the for loop
+            //studentClass student1 = new studentClass();
+            //studentClass student2 = new studentClass();
+            //studentClass student3 = new studentClass();
 
             //Instantiate a Course object called Programming with C#
             courseClass programmingWithCSharp = new courseClass();
+            programmingWithCSharp.CourseName = "Programming in C#";
 
+            //Instantiate three student objects
             //Add your three students to this Course object
-            programmingWithCSharp.Students = new studentClass[3] { student1, student2, student3 };
+            //This portion also takes advantage of the static variable studentClass.StudentCount
+            programmingWithCSharp.Students = new studentClass[3];
+            for (int i = 0; i < 3; i++)
+            {
+                programmingWithCSharp.Students[i] = new studentClass();
+                //studentClass.FirstName = "Thomas";
+                studentClass.StudentCount++;
+                //Console.WriteLine(studentClass.FirstName);
+            }                
 
             //Instantiate at least one Teacher object
             teacherClass teacher1 = new teacherClass();
@@ -48,7 +58,7 @@ namespace module5
             //The count of the number of students in the course.
 
             Console.WriteLine("The name of the Program is {0} and the Degree is {1}.", informationTechnology.ProgramName, informationTechnology.Degrees.DegreeName );
-            Console.WriteLine("The name of the Course is {0}.", informationTechnology.Degrees.Course );
+            Console.WriteLine("The name of the Course is {0}.", informationTechnology.Degrees.Course.CourseName);
             Console.WriteLine("The number of students enrolled is {0}", studentClass.StudentCount );
         }
     }
