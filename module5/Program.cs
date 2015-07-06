@@ -10,6 +10,7 @@ namespace module5
     {
         static void Main(string[] args)
         {
+
         }
     }
 }

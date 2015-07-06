@@ -8,5 +8,35 @@ namespace module5
 {
     class UProgram
     {
+        #region Variables and Properties
+
+        //Program Name
+        private string programName;
+
+        public string ProgramName
+        {
+            get { return programName; }
+            set { programName = value; }
+        }
+
+        //Department Head
+        private string departmentHead;
+
+        public string DepartmentHead
+        {
+            get { return departmentHead; }
+            set { departmentHead = value; }
+        }
+
+        //Degrees available
+        private string[] degrees;
+
+        public string[] Degrees
+        {
+            get { return degrees; }
+            set { degrees = value; }
+        }
+
+        #endregion
     }
 }
