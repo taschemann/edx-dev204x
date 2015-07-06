@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace module5
 {
-    class degree_class
+    class degreeClass
     {
         #region Variables and Properties
         //Degree Name

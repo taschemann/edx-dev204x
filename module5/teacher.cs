@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace module5
 {
-    class teacher_class
+    class teacherClass
     {
         #region Variables and Properties
 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace module5
 {
-    class course_class
+    class courseClass
     {
         #region Variables and Properties
 
@@ -46,6 +46,7 @@ namespace module5
             set { instructor = value; }
         }
 
+        //Students
         private string[] students;
 
         public string[] Students
