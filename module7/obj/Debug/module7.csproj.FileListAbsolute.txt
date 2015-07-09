@@ -1,2 +1,7 @@
 C:\Users\siu850260352\Desktop\workspace\src\vs2013\edx-dev204x\module7\bin\Debug\module7.exe.config
 C:\Users\Thomas\Desktop\workspace\src\edx-dev204x\module7\bin\Debug\module7.exe.config
+C:\Users\siu850260352\Desktop\workspace\src\vs2013\edx-dev204x\module7\bin\Debug\module7.exe
+C:\Users\siu850260352\Desktop\workspace\src\vs2013\edx-dev204x\module7\bin\Debug\module7.pdb
+C:\Users\siu850260352\Desktop\workspace\src\vs2013\edx-dev204x\module7\obj\Debug\module7.csprojResolveAssemblyReference.cache
+C:\Users\siu850260352\Desktop\workspace\src\vs2013\edx-dev204x\module7\obj\Debug\module7.exe
+C:\Users\siu850260352\Desktop\workspace\src\vs2013\edx-dev204x\module7\obj\Debug\module7.pdb
