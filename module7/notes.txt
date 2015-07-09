@@ -1,0 +1,31 @@
+﻿For this assignment, let's make some changes to your code to move from arrays to collections.
+Complete the following using your project from Module 6:
+
+Delete the Student array in your Course object that you created in Module 5.
+Create an ArrayList to replace the array and to hold students, inside the Course object.
+Modify your code to use the ArrayList collection as the replacement to the array.  In other words, 
+  when you add a Student to the Course object, you will add it to the ArrayList and not an array.
+Create a Stack object inside the Student object, called Grades, to store test scores.
+Create 3 student objects.
+Add 5 grades to the the Stack in the each Student object. (this does not have to be inside the 
+  constructor because you may not have grades for a student when you create a new student.)
+Add the three Student objects to the Students ArrayList inside the Course object.
+Using a foreach loop, iterate over the Students in the ArrayList and output their first and last 
+  names to the console window. (For this exercise you MUST cast the returned object from the ArrayList
+  to a Student object.  Also, place each student name on its own line)
+Create a method inside the Course object called ListStudents() that contains the foreach loop.
+Call the ListStudents() method from Main().
+Grading Criteria:
+
+Used an ArrayList of Students, inside the Course object.
+Added a Stack called Grades inside the Student object.
+Added 3 Student objects to this ArrayList using the ArrayList method for adding objects.
+Used a foreach loop to output the first and last name of each Student in the ArrayList.
+Cast the object from the ArrayList to Student, inside the foreach loop, before printing out the name information.
+Challenge:  (NOT to be assessed in Peer Review)
+
+Sort the ArrayList of students.
+Use a foreach loop to output the student names to see if the sort performed what you expect.
+To simulate changing a grade for a student, remove the last entered grade and replace it with a new one.
+Bonus challenge:  Ensure you have added at least 5 grades to the stack.  Replace the third grade in the stack without losing the two grades above it.
+Iterate over the student collection and output the first and last name along with each of the 5 grades for that student.
