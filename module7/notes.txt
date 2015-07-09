@@ -27,5 +27,6 @@ Challenge:  (NOT to be assessed in Peer Review)
 Sort the ArrayList of students.
 Use a foreach loop to output the student names to see if the sort performed what you expect.
 To simulate changing a grade for a student, remove the last entered grade and replace it with a new one.
-Bonus challenge:  Ensure you have added at least 5 grades to the stack.  Replace the third grade in the stack without losing the two grades above it.
+Bonus challenge:  Ensure you have added at least 5 grades to the stack.  Replace the third grade in the stack
+  without losing the two grades above it.
 Iterate over the student collection and output the first and last name along with each of the 5 grades for that student.
