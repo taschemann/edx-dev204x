@@ -7,3 +7,7 @@ C:\Users\siu850260352\Desktop\workspace\src\vs2013\edx-dev204x\module3\bin\Debug
 C:\Users\siu850260352\Desktop\workspace\src\vs2013\edx-dev204x\module3\obj\Debug\module3.csprojResolveAssemblyReference.cache
 C:\Users\siu850260352\Desktop\workspace\src\vs2013\edx-dev204x\module3\obj\Debug\module3.exe
 C:\Users\siu850260352\Desktop\workspace\src\vs2013\edx-dev204x\module3\obj\Debug\module3.pdb
+C:\Users\Thomas\Desktop\workspace\src\edx-dev204x\module3\bin\Debug\module3.exe
+C:\Users\Thomas\Desktop\workspace\src\edx-dev204x\module3\bin\Debug\module3.pdb
+C:\Users\Thomas\Desktop\workspace\src\edx-dev204x\module3\obj\Debug\module3.exe
+C:\Users\Thomas\Desktop\workspace\src\edx-dev204x\module3\obj\Debug\module3.pdb

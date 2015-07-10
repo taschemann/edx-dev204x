@@ -24,11 +24,11 @@ namespace module3
 
             Console.WriteLine("Which option do you need to work with?");
             Console.WriteLine("\n 1. Student \n 2. Teacher \n 3. Validate Birthday \n 4. Exit \n");
-            //Need exception here if user inputs an incorrect value
+
             string input = Console.ReadLine();
             int x;
             Int32.TryParse(input, out x);
-            //
+
             switch (x)
             {
                 case 1:
@@ -63,10 +63,10 @@ namespace module3
             Console.WriteLine("Enter the student's date of birth: ");
             string birthday = Console.ReadLine();
 
-            Console.WriteLine("Do you want to print output?");
+            Console.WriteLine("Do you want to print output? Y/N");
             string input = Console.ReadLine();
 
-            if (input == "y" || input == "yes")
+            if (input == "y" || input == "Y")
             {
                 printDetails(firstName, lastName, birthday);
             }
@@ -87,6 +87,7 @@ namespace module3
             string birthday = Console.ReadLine();
         }
 
+        //Prints details about any object that has the required properties
         static void printDetails(string firstName, string lastName, string birthday)
         {
             //Print details to console
