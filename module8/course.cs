@@ -47,10 +47,10 @@ namespace module8
             set { instructor = value; }
         }
 
-        //Student ArrayList
-        private ArrayList students = new ArrayList();
+        //Student Generic List
+        private List<student> students = new List<student>();
 
-        public ArrayList Students
+        public List<student> Students
         {
             get { return students; }
             set { students = value; }
