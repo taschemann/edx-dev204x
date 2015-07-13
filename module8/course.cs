@@ -73,6 +73,20 @@ namespace module8
             //Print blank line
             Console.WriteLine();
         }
+
+        //Prints student object grade values from the generic list object
+        public static void PrintGradeValues(List<student> genList)
+        {
+            int iterate = 1;
+            foreach (student studObj in genList)
+            {
+                Console.WriteLine();
+                Console.WriteLine("Grade of object {0} passed to generic list is {1}", iterate, studObj.GradesList.Pop());
+                iterate++;
+            }
+            //Print blank line
+            Console.WriteLine();
+        }
         #endregion
     }
 }
