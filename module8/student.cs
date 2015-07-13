@@ -23,13 +23,13 @@ namespace module8
             throw new NotImplementedException();
         }
 
-        //Stack to hold student grades
-        private Stack grades = new Stack();
+        //Generic Stack to hold student grades
+        private Stack<int> gradesList = new Stack<int>();
 
-        public Stack Grades
+        public Stack<int> GradesList
         {
-            get { return grades; }
-            set { grades = value; }
+            get { return gradesList; }
+            set { gradesList = value; }
         }
 
         //Method from the MSDN Stack doc

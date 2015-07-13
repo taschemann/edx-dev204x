@@ -48,21 +48,22 @@ namespace module8
         }
 
         //Student Generic List
-        private List<student> students = new List<student>();
+        private List<student> studentList = new List<student>();
 
-        public List<student> Students
+        public List<student> StudentList
         {
-            get { return students; }
-            set { students = value; }
+            get { return studentList; }
+            set { studentList = value; }
         }
 
-        //Basically the same as the MSDN code in the student class with some slight modifications
-        public void ListStudent(ArrayList listObj)
+        //Basically the same as the MSDN code in the student class but modified for generic list use
+        //Method must be classified as generic to be able to pass a generic list as an argument
+        public static void ListStudent<student>(List<student> genList)
         {
-            foreach (student stud in listObj)
+            foreach (student studObj in genList)
             {
-                Console.WriteLine("First name of student{0} is " + stud.FirstName);
-                Console.WriteLine("Last name of student{0} is " + stud.LastName);
+                Console.WriteLine("Object passed from generic list is " + studObj);
+                Console.WriteLine("First name of object is ");
             }
             //Print blank line
             Console.WriteLine();
