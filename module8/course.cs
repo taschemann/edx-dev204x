@@ -57,13 +57,18 @@ namespace module8
         }
 
         //Basically the same as the MSDN code in the student class but modified for generic list use
-        //Method must be classified as generic to be able to pass a generic list as an argument
-        public static void ListStudent<student>(List<student> genList)
+        //Method must be classified as generic to be able to pass a generic list as an argument - NOPE. That's not how it works.
+        public static void PrintValues(List<student> genList)
         {
+            int iterate = 1;
             foreach (student studObj in genList)
             {
-                Console.WriteLine("Object passed from generic list is " + studObj);
-                Console.WriteLine("First name of object is ");
+                Console.WriteLine();
+                Console.WriteLine("Object {0} passed from generic list is type {1}", iterate, studObj.GetType());
+                Console.WriteLine("First name of object {0} passed to generic list is {1}", iterate, studObj.FirstName);
+                Console.WriteLine("Last name of object {0} passed to generic list is {1}", iterate, studObj.LastName);
+                Console.WriteLine();
+                iterate++;
             }
             //Print blank line
             Console.WriteLine();

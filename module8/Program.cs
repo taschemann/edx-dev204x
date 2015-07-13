@@ -32,11 +32,6 @@ namespace module8
                 student3.GradesList.Push(gradeGen.Next(50, 101));
             }
 
-            //Add objects to Generic List object
-            programmingWithCSharp.StudentList.Add(student1);
-            programmingWithCSharp.StudentList.Add(student2);
-            programmingWithCSharp.StudentList.Add(student3);
-
             //Adding some names for testing
             student1.FirstName = "John";
             student1.LastName = "Aarons";
@@ -45,9 +40,24 @@ namespace module8
             student3.FirstName = "Chris";
             student3.LastName = "Barns";
 
-            course.ListStudent(programmingWithCSharp.StudentList);
+            //Add objects to Generic List object
+            programmingWithCSharp.StudentList.Add(student1);
+            programmingWithCSharp.StudentList.Add(student2);
+            programmingWithCSharp.StudentList.Add(student3);
 
-            //programmingWithCSharp.ListStudent(programmingWithCSharp.StudentList);
+            //programmingWithCSharp.StudentList.Find();
+
+            Console.WriteLine(programmingWithCSharp.StudentList.GetType());
+
+            ////Adding some names for testing
+            //student1.FirstName = "John";
+            //student1.LastName = "Aarons";
+            //student2.FirstName = "Michael";
+            //student2.LastName = "Asher";
+            //student3.FirstName = "Chris";
+            //student3.LastName = "Barns";
+
+            course.PrintValues(programmingWithCSharp.StudentList);
 
             #endregion
         }
