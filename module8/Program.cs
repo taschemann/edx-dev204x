@@ -37,6 +37,9 @@ namespace module8
             programmingWithCSharp.StudentList.Add(student2);
             programmingWithCSharp.StudentList.Add(student3);
 
+            //Does nothing useful. Just here for testing.
+            //Console.WriteLine(programmingWithCSharp.StudentList.GetType());
+
             //Adding some names for testing
             student1.FirstName = "John";
             student1.LastName = "Aarons";
@@ -45,9 +48,9 @@ namespace module8
             student3.FirstName = "Chris";
             student3.LastName = "Barns";
 
-            course.ListStudent(programmingWithCSharp.StudentList);
-
-            //programmingWithCSharp.ListStudent(programmingWithCSharp.StudentList);
+            //Print value of object properties in generic list
+            course.PrintValues(programmingWithCSharp.StudentList);
+            course.PrintGradeValues(programmingWithCSharp.StudentList);
 
             #endregion
         }

@@ -32,17 +32,5 @@ namespace module8
             set { gradesList = value; }
         }
 
-        //Method from the MSDN Stack doc
-        public static void PrintValues(IEnumerable collection)
-        {
-            //for each object stored in the collection that is passed...
-            foreach (Object obj in collection)
-            {
-                //Print the object value to console
-                Console.Write(" {0}", obj);
-            }
-            //Print blank line
-            Console.WriteLine();
-        }
     }
 }
