@@ -17,3 +17,6 @@ C:\Users\gerry.GERSURF3\Downloads\Mod_9_Homework\Mod_9_Homework\Mod_9_Homework\o
 C:\Users\Thomas\Desktop\workspace\src\edx-dev204x\module9\Mod_9_Homework\bin\Debug\Mod_9_Homework.exe.config
 C:\Users\Thomas\Desktop\workspace\src\edx-dev204x\module9\Mod_9_Homework\obj\Debug\Mod_9_Homework.exe
 C:\Users\Thomas\Desktop\workspace\src\edx-dev204x\module9\Mod_9_Homework\obj\Debug\Mod_9_Homework.pdb
+C:\Users\siu850260352\Desktop\workspace\src\edx-dev204x\module9\Mod_9_Homework\bin\Debug\Mod_9_Homework.exe.config
+C:\Users\siu850260352\Desktop\workspace\src\edx-dev204x\module9\Mod_9_Homework\obj\Debug\Mod_9_Homework.exe
+C:\Users\siu850260352\Desktop\workspace\src\edx-dev204x\module9\Mod_9_Homework\obj\Debug\Mod_9_Homework.pdb
